@@ -17,3 +17,21 @@ git commit --amend -m --no-edit
 ```
 git reset --hard <commitId> && git clean -f
 ```
+
+#### Visualize git log
+
+```
+git log --graph --oneline --decorate
+```
+
+#### Create a new branch
+
+```
+git checkout -b <branchName>
+```
+
+#### Remove a file from commit
+
+```
+git rm <fileName> <fileName>
+```
