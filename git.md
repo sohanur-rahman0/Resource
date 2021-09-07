@@ -12,8 +12,8 @@ git commit --amend -m "updated commit message"
 git commit --amend -m --no-edit
 ```
 
-#### Remove the last commit from remote repository
+#### Going back to older commit
 
 ```
-git revert HEAD [main 2218b9e]
+git reset --hard <commitId> && git clean -f
 ```
