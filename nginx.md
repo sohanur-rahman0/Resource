@@ -19,3 +19,15 @@ http {
 
 events {}
 ```
+
+#### Run backend and fronend at same domain
+
+```
+location / {
+    proxy_pass http://127.0.0.1:3000;
+}
+location /api {
+	rewrite ^\/api\/(.*)$ /api/$1 break;
+	proxy_pass http://localhost:3030;
+}
+```
