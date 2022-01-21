@@ -1,3 +1,6 @@
+### Git CheatSheet
+<img src="_Git cheat sheet dark (FINAL).png"/>
+
 ### Useful Git commands
 
 #### Update a commit
