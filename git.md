@@ -1,5 +1,5 @@
 ### Git CheatSheet
-<img src="_Git cheat sheet dark (FINAL).png"/>
+<img src="_Git cheat sheet dark (FINAL).png" alt="Git CheatSheet"/>
 
 ### Useful Git commands
 
